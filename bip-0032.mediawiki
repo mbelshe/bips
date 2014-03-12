@@ -137,6 +137,8 @@ Each account is composed of two keypair chains: an internal and an external one.
  * m/i'/0/k corresponds to the k'th keypair of the external chain of account number i of the HDW derived from master m.
  * m/i'/1/k corresponds to the k'th keypair of the internal chain of account number i of the HDW derived from master m.
 
+i and k are unsigned 31-bit integers.
+
 ===Use cases===
 
 ====Full wallet sharing: m====
